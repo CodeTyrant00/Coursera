@@ -11,6 +11,12 @@ h1{
   text-align: center;
   color:red;
 }
+div > a{
+    border:10 px solid black;
+}
+
+
+
 a{
 
   border: 20px solid white;
@@ -21,6 +27,7 @@ a{
 
   
 }
+
 p{
   background-color:red;
   width: 20%; 
@@ -34,21 +41,25 @@ p{
 
 }
 
+
   
 #p1{
   background-color:green;
   padding-left: 20px;
   padding-bottom: 20px;
+  border:1px  solid black;
 }
 #p2{
   background-color:blue;
   padding-left: 20px;
   padding-bottom: 20px;
+  border:1px  solid black;
 }
 #p3{
   background-color:purple;
   padding-left: 20px;
   padding-bottom: 20px;
+  border:1px  solid black;
 }
 
 
