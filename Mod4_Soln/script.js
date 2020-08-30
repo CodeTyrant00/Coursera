@@ -33,9 +33,11 @@ WARNING!!! WARNING!!!
 // (Note, Step 2 will be done in the SpeakHello.js file.)
 
 var names = ["Yaakov", "John", "Jen", "Jason", "Paul", "Frank", "Larry", "Paula", "Laura", "Jim"];
+
 for(var i=0;i<names.length;i++)
 {
-  if(names[i].charAt(0)=='J'||names[i].charAt(0)=='j'){
+   var firstname=names[i].charAt(0).toLowerCase();
+  if(firstname=='j'){
     byeSpeaker.speak(names[i]);
   }
   else{
